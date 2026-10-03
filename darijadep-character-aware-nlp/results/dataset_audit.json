@@ -1,0 +1,44 @@
+{
+  "train": {
+    "source_filename": "darija_train(2).csv",
+    "sha256": "2c9685e24b9d4fb2db20542d201e3150ae224e548843852b5899ba0e8e04a4df",
+    "input_rows": 3683,
+    "processed_rows": 3612,
+    "class_counts": {
+      "1": 1952,
+      "0": 1201,
+      "2": 459
+    },
+    "duplicate_processed_text_rows": 14
+  },
+  "validation": {
+    "source_filename": "darija_val(2).csv",
+    "sha256": "8857519b5d173908db60e5c27a4e27100b96b65615c484312e226619943111d4",
+    "input_rows": 898,
+    "processed_rows": 876,
+    "class_counts": {
+      "0": 301,
+      "1": 458,
+      "2": 117
+    },
+    "duplicate_processed_text_rows": 0
+  },
+  "test": {
+    "source_filename": "darija_test(4).csv",
+    "sha256": "029486913f5c3ff0c95f1a86da03eb1d0b2196e642dc96b41c21ee4d7f66543d",
+    "input_rows": 78,
+    "processed_rows": 74,
+    "class_counts": {
+      "1": 22,
+      "0": 26,
+      "2": 26
+    },
+    "duplicate_processed_text_rows": 0
+  },
+  "exact_processed_text_overlap": {
+    "train_validation": 5,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "test_manual_review": "confirmed by author in conversation; separate annotation history not supplied"
+}

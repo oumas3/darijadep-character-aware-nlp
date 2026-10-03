@@ -1,0 +1,14 @@
+# Private data and model assets
+*.csv
+*.tsv
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+.env
+.env.*
+/kaggle/
+/data/private/
+__pycache__/
+.ipynb_checkpoints/
+.venv/

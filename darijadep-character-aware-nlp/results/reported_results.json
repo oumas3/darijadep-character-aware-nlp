@@ -1,0 +1,46 @@
+{
+  "status": "transcribed_from_saved_notebook_outputs_not_independently_rerun",
+  "source": "vrdarhbrt.ipynb, final all-in-one comparison",
+  "test_n": 74,
+  "seed": 42,
+  "models": {
+    "M0": {
+      "macro_f1": 0.5117,
+      "qwk": 0.3855,
+      "mae": 0.527,
+      "severe_f1": 0.6923
+    },
+    "M1": {
+      "macro_f1": 0.5457,
+      "qwk": 0.4675,
+      "mae": 0.473,
+      "severe_f1": 0.6818
+    },
+    "M2": {
+      "macro_f1": 0.5122,
+      "qwk": 0.4762,
+      "mae": 0.5135,
+      "severe_f1": 0.6939
+    },
+    "AraBERT": {
+      "macro_f1": 0.3962,
+      "qwk": 0.2466,
+      "mae": 0.6351,
+      "severe_f1": 0.4865
+    }
+  },
+  "paired_m1_minus_m0": {
+    "reported_delta": 0.034,
+    "reported_95_percent_ci": [
+      -0.038,
+      0.114
+    ],
+    "resamples": 10000
+  },
+  "gate_analysis": {
+    "seed": 1,
+    "split": "validation",
+    "higher_arabizi_gate_layers": 11,
+    "total_layers": 12
+  }
+}
